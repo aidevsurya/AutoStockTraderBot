@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stock Prediction Software</title>
-    <style>
+<style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f8f9fa;
@@ -73,4 +67,3 @@ python RUN_THIS.py
     <img src="RELIANCE_price_with_signals.png" alt="Reliance Price with Buy/Sell Signals">
 
 </body>
-</html>
