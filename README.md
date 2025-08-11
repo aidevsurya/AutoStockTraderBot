@@ -11,7 +11,7 @@ automatically takes trade actions while active.
 <h2>Installation</h2>
 <p>Run the following commands in your terminal to install all required libraries:</p>
 <pre>
-pip install yfinance pandas numpy scikit-learn xgboost joblib matplotlib
+pip install -r requirements.txt
 </pre>
 
 <h2>How to Run</h2>
