@@ -16,11 +16,11 @@ pip install yfinance pandas numpy scikit-learn xgboost joblib matplotlib
 
 <h2>How to Run</h2>
 <ol>
-<li>Edit the <code>STOCK_LISTS</code> in <code>RUN_THIS.py</code> according to your requirements.</li>
-<li>Set your custom configuration inside <code>RUN_THIS.py</code>.</li>
+<li>Edit the <code>STOCK_LISTS</code> in <code>RUN_THIS.PY</code> according to your requirements.</li>
+<li>Set your custom configuration inside <code>config.py</code>.</li>
 <li>Run the program using:
 <pre>
-python RUN_THIS.py
+python RUN_THIS.PY
 </pre>
 </li>
 <li>The software will automatically analyze stock data and take actions while running.</li>
