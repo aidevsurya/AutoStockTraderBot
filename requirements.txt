@@ -1,0 +1,9 @@
+xgboost
+yfinance
+scikit-learn
+gspread
+oauth2client
+schedule
+python-telegram-bot
+pandas
+numpy
