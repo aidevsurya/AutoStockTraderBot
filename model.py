@@ -26,23 +26,8 @@ client = MySheet.connect_gsheet()
 spreadsheet = MySheet.open_spreadsheet(client,"AlgoTradingLog")
 dataSheet = MySheet.open_sheet_tab(spreadsheet,"Sheet1")
 
-#Dataset Config
-# DATASET_PATH = input("Enter Your CSV Dataset: ")  # your technical indicators CSV
-MODEL_PATH = ""
-RANDOM_STATE = 42
-
-# Backtest config
-INITIAL_CAPITAL = 10000.0
-POSITION_SIZE_FRAC = 1.0
-STOP_LOSS_PCT = 1.0
-TAKE_PROFIT_PCT = 0.5
-
-# Decision thresholds
-BUY_PROB_THRESHOLD = 0.8
-SELL_PROB_THRESHOLD = 0.2
-
-# Backtest period config
-BACKTEST_MONTHS = 6 # int(input("Enter PaperTrading Duration in months (max: 12): "))  # how far back to test
+#Configured User Variables
+from config import *
 
 # -----------------------------
 # Data loading & cleaning
